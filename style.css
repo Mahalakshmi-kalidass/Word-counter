@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh;
+  background: pink;
+}
+h1{
+  //border:1px solid black;
+  text-align: center;
+  margin: 25px;
+ 
+}
+#box{
+  //border:1px solid black; 
+  padding: 10px;
+  border-radius:5px;
+  outline:none;
+  
+}
+.inside{
+  width:800px;
+  margin:auto;
+  text-align: center;
+  font-size:30px;
+}
+input[type="text"]{
+  width:50px;
+  border:none;
+  text-align: center;
+  font-size: 30px;
+  outline: none;
+  border-bottom: 3px solid lightpink;
+}
